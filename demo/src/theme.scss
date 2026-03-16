@@ -1,0 +1,7 @@
+@use '../../src/scss/feather' with (
+  $color-primary: #0ea5e9,
+  $color-secondary: #8b5cf6,
+  $color-success: #22c55e,
+  $radius-md: 0.625rem,
+  $container-max-width: 64rem
+);
