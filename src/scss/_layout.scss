@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+.container {
+  width: min(100% - 2rem, $container-max-width);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: $space-4;
+}
+
+.stack > * + * {
+  margin-top: $space-4;
+}

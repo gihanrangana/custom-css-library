@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+@mixin focus-ring {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba($color-primary, 0.25);
+}
+
+@mixin button-variant($bg, $color: $color-white) {
+  background-color: $bg;
+  border-color: $bg;
+  color: $color;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+
+  &:active {
+    filter: brightness(0.9);
+  }
+}
+
+@mixin surface {
+  background-color: $color-white;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+}

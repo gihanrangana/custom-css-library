@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light;
+}
+
+.demo-page {
+  min-height: 100vh;
+  padding: 2rem 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+.hero {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+}

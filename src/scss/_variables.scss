@@ -1,0 +1,39 @@
+// Theme tokens
+$color-white: #ffffff !default;
+$color-black: #000000 !default;
+
+$color-primary: #2563eb !default;
+$color-secondary: #7c3aed !default;
+$color-success: #16a34a !default;
+$color-warning: #d97706 !default;
+$color-danger: #dc2626 !default;
+$color-info: #0891b2 !default;
+
+$color-bg: #ffffff !default;
+$color-surface: #f8fafc !default;
+$color-border: #e2e8f0 !default;
+$color-text: #0f172a !default;
+$color-text-muted: #64748b !default;
+
+$font-family-base: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !default;
+$font-size-base: 1rem !default;
+$line-height-base: 1.5 !default;
+
+$radius-sm: 0.25rem !default;
+$radius-md: 0.5rem !default;
+$radius-lg: 0.75rem !default;
+$pill-radius: 999px !default;
+
+$shadow-sm: 0 1px 2px rgba(2, 6, 23, 0.08) !default;
+$shadow-md: 0 6px 16px rgba(2, 6, 23, 0.12) !default;
+$shadow-lg: 0 14px 34px rgba(2, 6, 23, 0.16) !default;
+
+$space-0: 0 !default;
+$space-1: 0.25rem !default;
+$space-2: 0.5rem !default;
+$space-3: 0.75rem !default;
+$space-4: 1rem !default;
+$space-5: 1.5rem !default;
+
+$container-max-width: 72rem !default;
+$transition-fast: 180ms ease-in-out !default;
